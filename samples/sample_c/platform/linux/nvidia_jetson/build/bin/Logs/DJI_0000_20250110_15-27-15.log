@@ -1,0 +1,284 @@
+[32m[0.007][core]-[Info]-[DjiCore_Init:105) Payload SDK Version : V3.8.1-beta.0-build.2006 [0m
+[37m[0.008][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[0.008][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[0.008][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	0       	0        [0m
+[37m[0.008][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	0       	0        [0m
+[37m[0.090][linker]-[Debug]-[DjiLinker_Init:128) init linker success, protocol:2, channelId:0 [0m
+[37m[0.090][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0000>V1-Send: 0x0A06->0x0300 0x03FD [0m
+[37m[0.111][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x01>V1-Send: 0x0A06->0x0300 0x03FD [0m
+[37m[0.131][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x02>V1-Send: 0x0A06->0x0300 0x03FD [0m
+[37m[0.151][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x03>V1-Send: 0x0A06->0x0300 0x03FD [0m
+[37m[0.171][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x04>V1-Send: 0x0A06->0x0300 0x03FD [0m
+[37m[0.254][linker]-[Debug]-[DjiLinker_DeInit:170) deinit linker success, protocol:2, channelId:0 [0m
+[37m[0.270][linker]-[Debug]-[DjiLinker_Init:128) init linker success, protocol:2, channelId:0 [0m
+[37m[0.270][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0000>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.290][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x01>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.310][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x02>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.331][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x03>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.351][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x04>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.432][linker]-[Debug]-[DjiLinker_DeInit:170) deinit linker success, protocol:2, channelId:0 [0m
+[37m[0.449][linker]-[Debug]-[DjiLinker_Init:128) init linker success, protocol:2, channelId:0 [0m
+[37m[0.449][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0000>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.469][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x01>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.489][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x02>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.510][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x03>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.530][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x04>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.612][linker]-[Debug]-[DjiLinker_DeInit:170) deinit linker success, protocol:2, channelId:0 [0m
+[37m[0.627][linker]-[Debug]-[DjiLinker_Init:128) init linker success, protocol:2, channelId:0 [0m
+[37m[0.627][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0000>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.633][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0000>V1-Recv: 0x0503->0x0507 0x03FD [0m
+[37m[0.648][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x01>V1-Send: 0x0507->0x0503 0x03FD [0m
+[37m[0.714][linker]-[Debug]-[DjiLinker_DeInit:170) deinit linker success, protocol:2, channelId:0 [0m
+[32m[0.714][adapter]-[Info]-[DjiAccessAdapter_Init:231) Identify aircraft series is Matrice 350 Series [0m
+[32m[0.714][adapter]-[Info]-[DjiAccessAdapter_Init:264) Identify mount position type is Payload Port Type [0m
+[37m[0.714][linker]-[Debug]-[DjiCommand_Init:158) config list channel id:2 [0m
+[37m[0.725][linker]-[Debug]-[DjiLinker_Init:128) init linker success, protocol:2, channelId:0 [0m
+[37m[0.725][linker]-[Debug]-[DjiCommand_Init:167) add linker node count:1 [0m
+[32m[0.725][adapter]-[Info]-[DjiAccessAdapter_Init:365) Identity uart0 baudrate is 460800 bps [0m
+[37m[0.725][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x823b>V1-Send: 0x0507->0x0503 0x3C3D [0m
+[37m[0.725][linker]-[Debug]-[DjiCommand_SendAsync:497) Max wait ack item count is 32. [0m
+[37m[0.729][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x823b>V1-Recv: 0x0503->0x0507 0x3C3D [0m
+[37m[0.730][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x823b>Receive msg from linker, 0x0503->0x0507 0x3C3D len:2 [0m
+[37m[0.730][linker]-[Debug]-[DjiCommand_SendSyncCallback:1014) PsdkCommand_SendSyncCallback success [0m
+[37m[0.730][linker]-[Debug]-[DjiCommand_DealCmd:830) callback function (cmdset: 0x3C cmdid: 0x3D) deal time: 0 ms [0m
+[37m[0.730][linker]-[Debug]-[DjiCommand_SendSync:553) sendSync callback success [0m
+[37m[0.730][linker]-[Debug]-[DjiCommand_RegRecvCmdHandler:674) Reg command handle list success, index:0 [0m
+[32m[0.730][adapter]-[Info]-[DjiPayloadNegotiate_Init:234) Waiting payload negotiate finished. [0m
+[37m[1.048][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7cff>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[1.049][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7cff>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[1.049][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7cff> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[1.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d00>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[1.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d01>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[1.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d00>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[1.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d00> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[1.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d01>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[1.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d01> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[1.289][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[1.289][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[1.289][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	0       	0        [0m
+[37m[1.289][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	1       	1        [0m
+[37m[1.289][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	0       	0        [0m
+[37m[1.545][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d10>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[1.547][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d10>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[1.547][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7d10> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[1.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d12>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[1.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d12>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[1.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d13>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[1.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d14>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[1.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d12> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[1.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d13>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[1.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d13> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[1.553][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d14>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[1.553][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d14> cmdset: 0x3C cmdid: 0x37 [0m
+[32m[1.730][adapter]-[Info]-[DjiPayloadNegotiate_Init:234) Waiting payload negotiate finished. [0m
+[37m[2.048][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d1f>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[2.049][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d1f>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[2.049][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d1f> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[2.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d20>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[2.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d21>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[2.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d20>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[2.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d20> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[2.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d21>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[2.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d21> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[2.546][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d2f>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[2.546][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d2f>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[2.546][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7d2f> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[2.548][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d31>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[2.549][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d31>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[2.549][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d31> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[2.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d32>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[2.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d32>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[2.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d32> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[2.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d33>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[2.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d33>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[2.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d33> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[2.580][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[2.580][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[2.580][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[2.580][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	0       	1        [0m
+[37m[2.580][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	0       	0        [0m
+[32m[2.731][adapter]-[Info]-[DjiPayloadNegotiate_Init:234) Waiting payload negotiate finished. [0m
+[37m[3.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d3f>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[3.050][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d3f>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[3.050][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d3f> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[3.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d40>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[3.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d40>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[3.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d40> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[3.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d41>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[3.053][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d41>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[3.053][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d41> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[3.545][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d4f>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[3.546][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d4f>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[3.546][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7d4f> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[3.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d51>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[3.549][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d51>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[3.549][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d51> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[3.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d52>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[3.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d53>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[3.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d52>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[3.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d52> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[3.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d53>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[3.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d53> cmdset: 0x3C cmdid: 0x37 [0m
+[32m[3.731][adapter]-[Info]-[DjiPayloadNegotiate_Init:234) Waiting payload negotiate finished. [0m
+[37m[3.857][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[3.857][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[3.857][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[3.857][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	1       	1        [0m
+[37m[3.857][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	1       	1        [0m
+[37m[4.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d5e>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[4.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d5e>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[4.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d5e> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[4.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d5f>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[4.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d60>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[4.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d5f>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[4.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d5f> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[4.053][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d60>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[4.053][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d60> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[4.547][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d6f>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[4.548][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d6f>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[4.549][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7d6f> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[4.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d71>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[4.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d71>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[4.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d71> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[4.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d72>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[4.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d73>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[4.553][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d72>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[4.553][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d72> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[4.554][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d73>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[4.554][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d73> cmdset: 0x3C cmdid: 0x37 [0m
+[32m[4.732][adapter]-[Info]-[DjiPayloadNegotiate_Init:234) Waiting payload negotiate finished. [0m
+[37m[5.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d7e>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[5.050][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d7e>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[5.050][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d7e> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[5.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d7f>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[5.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d7f>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[5.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d7f> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[5.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d80>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[5.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d80>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[5.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d80> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[5.172][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[5.172][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[5.172][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[5.172][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	0       	1        [0m
+[37m[5.172][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	1       	1        [0m
+[37m[5.546][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d8e>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[5.546][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d8e>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[5.546][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7d8e> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[5.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d90>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[5.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d91>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[5.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d90>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[5.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d92>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[5.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d90> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[5.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d91>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[5.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d91> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[5.554][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d92>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[5.554][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d92> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[5.732][linker]-[Debug]-[DjiProtocol_v1Pack:123) <0x823c>V1-Send: 0x1300->0x1401 0x0087 [0m
+[37m[5.765][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x823c>V1-Recv: 0x1401->0x1300 0x0087 [0m
+[37m[5.767][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x823c>Receive msg from linker, 0x1401->0x1300 0x0087 len:4 [0m
+[37m[5.767][linker]-[Debug]-[DjiCommand_SendSyncCallback:1014) PsdkCommand_SendSyncCallback success [0m
+[37m[5.767][linker]-[Debug]-[DjiCommand_DealCmd:830) callback function (cmdset: 0x00 cmdid: 0x87) deal time: 0 ms [0m
+[37m[5.767][linker]-[Debug]-[DjiCommand_SendSync:553) sendSync callback success [0m
+[37m[5.767][adapter]-[Debug]-[DjiPayloadNegotiate_Init:251) Waiting payload negotiate remove finished. [0m
+[37m[6.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d9e>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[6.050][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d9e>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[6.050][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d9e> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[6.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7d9f>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[6.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7d9f>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[6.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7d9f> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[6.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7da0>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[6.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7da0>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[6.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7da0> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[6.469][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[6.469][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[6.469][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[6.469][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	1       	1        [0m
+[37m[6.469][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	1       	1        [0m
+[37m[6.546][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dae>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[6.548][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dae>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[6.548][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7dae> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[6.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7db0>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[6.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7db0>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[6.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7db0> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[6.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7db1>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[6.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7db2>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[6.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7db1>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[6.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7db1> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[6.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7db2>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[6.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7db2> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[6.767][adapter]-[Debug]-[DjiPayloadNegotiate_Init:251) Waiting payload negotiate remove finished. [0m
+[37m[7.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dbd>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[7.050][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dbd>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[7.050][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dbd> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[7.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dbe>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[7.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dbe>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[7.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dbe> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[7.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dbf>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[7.053][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dbf>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[7.053][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dbf> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[7.545][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dce>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[7.546][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dce>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[7.546][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7dce> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[7.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dd0>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[7.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dd0>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[7.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dd0> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[7.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dd1>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[7.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dd1>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[7.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dd1> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[7.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dd2>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[7.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dd2>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[7.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dd2> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[7.754][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[7.755][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[7.755][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[7.755][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	1       	1        [0m
+[37m[7.755][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	1       	1        [0m
+[37m[7.767][adapter]-[Debug]-[DjiPayloadNegotiate_Init:251) Waiting payload negotiate remove finished. [0m
+[37m[8.049][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7ddd>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[8.050][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7ddd>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[8.050][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7ddd> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[8.050][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dde>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[8.051][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dde>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[8.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7ddf>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[8.051][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dde> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[8.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7ddf>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[8.053][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7ddf> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[8.546][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7ded>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[8.547][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7ded>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[8.547][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7ded> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[8.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7def>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[8.549][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7df0>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[8.550][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7def>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[8.550][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7def> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[8.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7df1>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[8.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7df0>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[8.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7df0> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[8.553][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7df1>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[8.553][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7df1> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[8.768][adapter]-[Debug]-[DjiPayloadNegotiate_Init:251) Waiting payload negotiate remove finished. [0m
+[37m[9.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dfd>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[9.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dfe>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[9.051][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7dff>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[9.052][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dfd>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[9.052][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dfd> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[9.053][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dfe>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[9.053][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dfe> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[9.054][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7dff>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[9.054][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7dff> cmdset: 0x3C cmdid: 0x37 [0m
+[37m[9.066][utils]-[Debug]-[DjiCore_RootTask:131) work execution time: [0m
+[37m[9.066][utils]-[Debug]-[DjiCore_RootTask:132) name	                execution time (ms)	  max execution time (ms) [0m
+[37m[9.066][utils]-[Debug]-[DjiCore_RootTask:134) recorderWork                    	1       	1        [0m
+[37m[9.066][utils]-[Debug]-[DjiCore_RootTask:134) flowControllerTask              	0       	1        [0m
+[37m[9.066][utils]-[Debug]-[DjiCore_RootTask:134) commandTask                     	1       	1        [0m
+[37m[9.546][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7e0d>V1-Recv: 0x0503->0x0400 0x3C10 [0m
+[37m[9.547][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7e0d>Receive msg from linker, 0x0503->0x0400 0x3C10 len:64 [0m
+[37m[9.547][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that noneed ack, <0x7e0d> cmdset: 0x3C cmdid: 0x10 [0m
+[37m[9.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7e0f>V1-Recv: 0x0503->0x0507 0x3C36 [0m
+[37m[9.550][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7e10>V1-Recv: 0x0503->0x0507 0x3C43 [0m
+[37m[9.551][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7e0f>Receive msg from linker, 0x0503->0x0507 0x3C36 len:0 [0m
+[37m[9.551][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7e0f> cmdset: 0x3C cmdid: 0x36 [0m
+[37m[9.551][linker]-[Debug]-[DjiProtocol_v1Unpack:215) <0x7e11>V1-Recv: 0x0503->0x0507 0x3C37 [0m
+[37m[9.552][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7e10>Receive msg from linker, 0x0503->0x0507 0x3C43 len:0 [0m
+[37m[9.552][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7e10> cmdset: 0x3C cmdid: 0x43 [0m
+[37m[9.553][linker]-[Debug]-[DjiCommand_RecvWork:1066)  <0x7e11>Receive msg from linker, 0x0503->0x0507 0x3C37 len:16 [0m
+[37m[9.553][linker]-[Debug]-[DjiCommand_DealCmd:919) received unsupport request cmd that need ack, <0x7e11> cmdset: 0x3C cmdid: 0x37 [0m

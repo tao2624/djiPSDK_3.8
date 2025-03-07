@@ -1,0 +1,3 @@
+/home/tao/wsl_project/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/nvidia_jetson/build/CMakeFiles/dji_sdk_demo_on_jetson.dir
+/home/tao/wsl_project/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/nvidia_jetson/build/CMakeFiles/edit_cache.dir
+/home/tao/wsl_project/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/nvidia_jetson/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "dji_media_file_core.h": "c",
+        "dji_high_speed_data_channel.h": "c",
+        "dji_aircraft_info.h": "c",
+        "socket.h": "c",
+        "in.h": "c",
+        "internet": "c",
+        "mine_123": "cpp",
+        "string_view": "c",
+        "util_file.h": "c",
+        "buffer": "c",
+        "test_widget_interaction.h": "c",
+        "util_buffer.h": "c",
+        "algorithm": "c",
+        "format": "c",
+        "chrono": "c",
+        "test_payload_cam_emu_media.h": "c"
+    }
+}

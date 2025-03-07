@@ -1,0 +1,239 @@
+/* #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <stdbool.h>
+
+#define PORT 8888
+#define BUF_SIZE 4096
+
+// 定义一些常量
+#define VIDEO_FRAME_AUD_LEN 1024   // 音频帧长度，根据实际情况调整
+#define DATA_SEND_FROM_VIDEO_STREAM_MAX_LEN 1024 // 最大发送数据包大小
+
+// 模拟DjiPayloadCamera_SendVideoStream函数
+int DjiPayloadCamera_SendVideoStream(const uint8_t* data, size_t length) {
+    // 这里用来模拟推流操作，实际上你可以调用 DJI SDK 提供的推流函数
+    printf("Sending video stream, length: %zu bytes\n", length);
+    return 0;  // 返回成功
+}
+
+// 发送UDP数据到DjiPayloadCamera_SendVideoStream的函数
+int sendVideoStreamFromUdp(const char* udp_ip, int udp_port) {
+    int sockfd;
+    struct sockaddr_in server_addr, client_addr;
+    char buffer[BUF_SIZE];
+    socklen_t addr_len = sizeof(client_addr);
+    int frameNumber = 0;  // 视频帧计数器
+    size_t dataLength = 0;
+    size_t lengthOfDataHaveBeenSent = 0;
+    size_t lengthOfDataToBeSent = 0;
+
+    // 创建UDP套接字
+    sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+    if (sockfd < 0) {
+        perror("Socket creation failed");
+        return -1;
+    }
+
+    // 设置服务器地址
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(udp_port);
+
+    // 绑定套接字
+    if (bind(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Bind failed");
+        close(sockfd);
+        return -1;
+    }
+
+    printf("Listening for UDP packets on port %d...\n", udp_port);
+
+    while (1) {
+        // 接收数据包
+        int recv_len = recvfrom(sockfd, buffer, BUF_SIZE, 0, (struct sockaddr*)&client_addr, &addr_len);
+        if (recv_len < 0) {
+            perror("Receive failed");
+            continue;
+        }
+
+        // 打印接收到的数据大小和来源
+        printf("Received %d bytes from %s:%d\n", recv_len, inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+
+        // 处理视频帧数据
+        size_t dataBufferSize = recv_len + VIDEO_FRAME_AUD_LEN;  // 这里可以根据视频数据和音频数据进行调整
+        uint8_t* dataBuffer = (uint8_t*)calloc(dataBufferSize, 1);
+        if (dataBuffer == NULL) {
+            perror("Malloc failed");
+            continue;
+        }
+
+        // 复制视频数据到缓冲区
+        memcpy(dataBuffer, buffer, recv_len);
+
+        // 处理音频数据（如果有的话）
+        memcpy(&dataBuffer[recv_len], s_frameAudInfo, VIDEO_FRAME_AUD_LEN);  // 假设 s_frameAudInfo 包含音频数据
+        dataLength = recv_len + VIDEO_FRAME_AUD_LEN;
+
+
+        // 发送视频数据流
+        lengthOfDataHaveBeenSent = 0;
+        while (dataLength - lengthOfDataHaveBeenSent) {
+            lengthOfDataToBeSent = (dataLength - lengthOfDataHaveBeenSent > DATA_SEND_FROM_VIDEO_STREAM_MAX_LEN) ? DATA_SEND_FROM_VIDEO_STREAM_MAX_LEN : (dataLength - lengthOfDataHaveBeenSent);
+            
+            int returnCode = DjiPayloadCamera_SendVideoStream(dataBuffer + lengthOfDataHaveBeenSent, lengthOfDataToBeSent);
+            if (returnCode != 0) {
+                perror("Send video stream error");
+                free(dataBuffer);
+                close(sockfd);
+                return -1;
+            }
+
+            lengthOfDataHaveBeenSent += lengthOfDataToBeSent;
+        }
+
+        // 清理数据缓冲区
+        free(dataBuffer);
+
+        // 可根据需求控制发送频率（例如按帧率发送）
+        usleep(1000 / frameRate);  // 根据帧率进行适当延时（单位：微秒）
+    }
+
+    close(sockfd);
+    return 0;
+}
+
+int main() {
+    // 启动UDP流的处理
+    sendVideoStreamFromUdp("127.0.0.1", 8888);
+    return 0;
+} 
+*/
+
+
+/* Includes ------------------------------------------------------------------*/
+#include <fcntl.h>
+#include <stdlib.h>
+#include "dji_logger.h"
+#include "utils/util_misc.h"
+#include "utils/util_time.h"
+#include "utils/util_file.h"
+#include "utils/util_buffer.h"
+#include "test_payload_cam_emu_media.h"
+#include "test_payload_cam_emu_base.h"
+#include "camera_emu/dji_media_file_manage/dji_media_file_core.h"
+#include "dji_high_speed_data_channel.h"
+#include "dji_aircraft_info.h"
+#include "widget_interaction_test/test_widget_interaction.h"
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+
+#define NALU_START_CODE "\x00\x00\x00\x01"
+#define NALU_START_CODE_LEN 4
+#define VIDEO_FRAME_AUD_LEN 8
+#define MAX_SEND_SIZE 1400
+
+uint8_t s_frameAudInfo[VIDEO_FRAME_AUD_LEN] = {0}; // 模拟音频信息
+
+// 模拟发送视频流函数
+int DjiPayloadCamera_SendVideoStream(uint8_t *data, size_t size) {
+    // 模拟发送成功
+    return 0; 
+}
+
+// 缓冲区
+uint8_t frameBuffer[65536]; // 缓冲区大小
+size_t frameBufferLen = 0;  // 当前缓冲区中有效数据长度
+
+int extractNALU(uint8_t *data, size_t dataSize) {
+    T_DjiReturnCode returnCode;
+    size_t startPos = 0;
+
+    if (frameBufferLen + dataSize > sizeof(frameBuffer)) {
+        USER_LOG_ERROR("Frame buffer overflow! Clearing buffer.");
+        frameBufferLen = 0;
+    }
+    memcpy(frameBuffer + frameBufferLen, data, dataSize);
+    frameBufferLen += dataSize;
+
+    bool IsFoundOneNALU = false;
+    int IsSPSframe = 0;
+
+    while (startPos < frameBufferLen) {
+        size_t naluStart = frameBufferLen;  // 默认无效值
+        for (size_t i = startPos; i < frameBufferLen - NALU_START_CODE_LEN + 1; i++) {
+            if (memcmp(frameBuffer + i, NALU_START_CODE, NALU_START_CODE_LEN) == 0) {
+                naluStart = i;
+                IsFoundOneNALU = true;
+                break;
+            }
+        }
+
+        if (!IsFoundOneNALU) {
+            USER_LOG_ERROR("No NALU found in received data.");
+            memmove(frameBuffer, frameBuffer + startPos, frameBufferLen - startPos);
+            frameBufferLen -= startPos;
+            break;
+        }
+
+        if (memcmp(frameBuffer + naluStart + NALU_START_CODE_LEN, &SPS_CODE, 1) == 0) {
+            IsSPSframe = 1;
+        }
+
+        size_t naluEnd = naluStart + NALU_START_CODE_LEN;
+        while (naluEnd < frameBufferLen - NALU_START_CODE_LEN + 1 &&
+               memcmp(frameBuffer + naluEnd, NALU_START_CODE, NALU_START_CODE_LEN) != 0) {
+            naluEnd++;
+        }
+
+        if (naluEnd >= frameBufferLen) {
+            memmove(frameBuffer, frameBuffer + naluStart, frameBufferLen - naluStart);
+            frameBufferLen -= naluStart;
+            break;
+        }
+
+        size_t naluSize = naluEnd - naluStart;
+        if (naluSize > 0) {
+            size_t totalSize = naluSize + VIDEO_FRAME_AUD_LEN;
+            uint8_t *naluData = (uint8_t *)malloc(totalSize);
+            if (naluData == NULL) {
+                USER_LOG_ERROR("Memory allocation failed.");
+                return -1;
+            }
+
+            memcpy(naluData, frameBuffer + naluStart, naluSize);
+            memcpy(&naluData[naluSize], s_frameAudInfo, VIDEO_FRAME_AUD_LEN);
+
+            size_t lengthToSend = totalSize;
+            size_t offset = 0;
+
+            while (lengthToSend > 0) {
+                size_t sendSize = (lengthToSend > MAX_SEND_SIZE) ? MAX_SEND_SIZE : lengthToSend;
+                returnCode = DjiPayloadCamera_SendVideoStream(naluData + offset, sendSize);
+                if (returnCode != DJI_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+                    USER_LOG_ERROR("Send video stream error: 0x%08llX.", returnCode);
+                }
+
+                lengthToSend -= sendSize;
+                offset += sendSize;
+            }
+
+            free(naluData);
+        }
+
+        startPos = naluEnd;
+    }
+
+    if (startPos > 0 && startPos < frameBufferLen) {
+        memmove(frameBuffer, frameBuffer + startPos, frameBufferLen - startPos);
+        frameBufferLen -= startPos;
+    }
+
+    return 0;
+}
+
