@@ -111,9 +111,9 @@ if (SYSTEM_PLATFORM MATCHES "aarch64")
 
     ################ include wiringPi ################
     set(wiringPi_INCLUDE_DIR /home/tao/tools/WiringPi/wiringPi) #not include/libusb-1.0
-    set(wiringPi_DIR /home/tao/tools/WiringPi/buildd/wiringPi)
+    set(wiringPi_DIR /usr/local/lib/)
     # set(LIBUSB_1_0_INCLUDE_DIR /usr/arm/aarch64/include/libusb-1.0) 
-    set(wiringPi_LIBRARY /home/tao/tools/WiringPi/buildd/wiringPi/libwiringPi.so)
+    set(wiringPi_LIBRARY /usr/local/lib/libwiringPi.so)
 
     #message()
     # 包含头文件
@@ -122,7 +122,6 @@ if (SYSTEM_PLATFORM MATCHES "aarch64")
     link_directories(${wiringPi_DIR})
     # 链接 libusb-1.0 库
     link_libraries(${wiringPi_LIBRARY})
-
     ###################################################
 endif ()
 

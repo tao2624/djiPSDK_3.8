@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2
+CMAKE_SOURCE_DIR = /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build
+CMAKE_BINARY_DIR = /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/dji_sdk_demo_linux.dir/clean
 CMakeFiles/dji_sdk_demo_linux.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target dji_sdk_demo_linux"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target dji_sdk_demo_linux"
 .PHONY : CMakeFiles/dji_sdk_demo_linux.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dji_sdk_demo_linux.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 49
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dji_sdk_demo_linux.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 0
 .PHONY : CMakeFiles/dji_sdk_demo_linux.dir/rule
 
 # Convenience name for target.

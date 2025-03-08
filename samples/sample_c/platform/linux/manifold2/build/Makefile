@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2
+CMAKE_SOURCE_DIR = /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build
+CMAKE_BINARY_DIR = /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/CMakeFiles /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/CMakeFiles /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,1061 +225,1061 @@ hal/hal_usb_bulk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s
 .PHONY : hal/hal_usb_bulk.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.c.s
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o
 
 # target to build an object file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.o
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i
 
 # target to preprocess a source file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.i
 
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s: home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s: home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s
 
 # target to generate assembly for a file
-home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
-.PHONY : home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
+home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dji_sdk_demo_linux.dir/build.make CMakeFiles/dji_sdk_demo_linux.dir/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
+.PHONY : home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.c.s
 
 # Help Target
 help:
@@ -1302,138 +1302,138 @@ help:
 	@echo "... hal/hal_usb_bulk.o"
 	@echo "... hal/hal_usb_bulk.i"
 	@echo "... hal/hal_usb_bulk.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/camera_manager/test_camera_manager.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/data_transmission/test_data_transmission.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/flight_control/test_flight_control.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/hms/test_hms.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/interest_point/test_interest_point.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/liveview/test_liveview.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/mop_channel/test_mop_channel.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/perception/test_perception.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/positioning/test_positioning.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/power_management/test_power_management.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/time_sync/test_time_sync.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/cJSON.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/dji_config_manager.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_buffer.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_file.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_link_list.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_md5.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_misc.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/utils/util_time.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/file_binary_array_list_en.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget/test_widget_speaker.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/module_sample/xport/test_payload_xport.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/monitor/sys_monitor.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_fs.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/osal/osal_socket.s"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i"
-	@echo "... home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_core.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_jpg.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/dji_media_file_manage/dji_media_file_mp4.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/camera_manager/test_camera_manager.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/data_transmission/test_data_transmission.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/flight_control/test_flight_control.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/gimbal_manager/test_gimbal_manager.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/hms/test_hms.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/interest_point/test_interest_point.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/liveview/test_liveview.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/mop_channel/test_mop_channel.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/payload_collaboration/test_payload_collaboration.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/perception/test_perception.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/positioning/test_positioning.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/power_management/test_power_management.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/time_sync/test_time_sync.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_common_file_transfer.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/upgrade/test_upgrade_platform_opt.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/cJSON.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/dji_config_manager.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_buffer.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_file.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_link_list.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_md5.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_misc.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/utils/util_time.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v2/test_waypoint_v2.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/waypoint_v3/test_waypoint_v3.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/file_binary_array_list_en.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget/test_widget_speaker.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/file_binary_array_list_en.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/widget_interaction_test/test_widget_interaction.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/module_sample/xport/test_payload_xport.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/monitor/sys_monitor.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_fs.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/osal/osal_socket.s"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.o"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.i"
+	@echo "... home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/common/upgrade_platform_opt/upgrade_platform_opt_linux.s"
 .PHONY : help
 
 

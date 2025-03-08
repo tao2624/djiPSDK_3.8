@@ -35,7 +35,10 @@
 /* Private constants ---------------------------------------------------------*/
 #define WIDGET_DIR_PATH_LEN_MAX (256)
 #define WIDGET_TASK_STACK_SIZE (2048)
-#define PWM 26
+#define PWM1 1
+#define PWM2 23
+#define PWM3 24
+#define PWM4 26
 
 /* Private types -------------------------------------------------------------*/
 
@@ -199,7 +202,9 @@ static void* DjiTest_WidgetTask(void* arg)
     /* wiringPi try */
     if (wiringPiSetup() < 0) // 当使用这个函数初始化树莓派引脚时，程序使用的是wiringPi 引脚编号表。
         USER_LOG_ERROR("wiringPi init err!!");
-    pinMode(PWM,PWM_OUTPUT); //设置引脚为PWM输出模式
+
+    pinMode(PWM1,PWM_OUTPUT); //设置引脚为PWM输出模式
+    pinMode(PWM4,PWM_OUTPUT); //设置引脚为PWM输出模式
     pwmSetMode (PWM_MODE_MS);
     pwmSetRange(1024);              // pwm脉宽范围 0~1024
     pwmSetClock(75);                // 250Hz，19.2MHz / 75 / 1024 = 250Hz
@@ -207,9 +212,11 @@ static void* DjiTest_WidgetTask(void* arg)
     while (1) {
         djiStat = osalHandler->GetTimeMs(&sysTimeMs);
 
-        pwmWrite(PWM,768);  // 设置占空比
+        pwmWrite(PWM4,768);  // 设置占空比
+        pwmWrite(PWM1,100);
         delay(1000);
-        pwmWrite(PWM,256);
+        pwmWrite(PWM4,256);
+        pwmWrite(PWM1,1000);
         delay(1000);
 
         if (djiStat != DJI_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {

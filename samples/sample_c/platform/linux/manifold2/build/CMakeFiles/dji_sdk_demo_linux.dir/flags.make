@@ -4,7 +4,7 @@
 # compile C with /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
 C_DEFINES = -DLIBUSB_INSTALLED -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE
 
-C_INCLUDES = -I/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common -I/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../manifold2/application -I/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include -I/usr/local/include/opus -I/usr/arm/aarch64/include -I/home/tao/tools/WiringPi/wiringPi
+C_INCLUDES = -I/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common -I/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../manifold2/application -I/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include -I/usr/local/include/opus -I/usr/arm/aarch64/include -I/home/tao/tools/WiringPi/wiringPi
 
 C_FLAGS = -pthread -std=gnu99
 

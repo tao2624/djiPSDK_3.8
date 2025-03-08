@@ -1,8 +1,8 @@
 CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/main.c \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/main.c \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdint.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdint.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/libc-header-start.h \
@@ -49,12 +49,12 @@ CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdarg.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/stdio_lim.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sys_errlist.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_error.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_logger.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_core.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/utils/util_misc.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_error.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_logger.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_core.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/utils/util_misc.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/errno.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/errno.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/linux/errno.h \
@@ -83,27 +83,27 @@ CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/time.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/user.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sigthread.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/power_management/test_power_management.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_power_management.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/gimbal_emu/test_payload_gimbal_emu.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_gimbal.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/fc_subscription/test_fc_subscription.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_fc_subscription.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/camera_emu/test_payload_cam_emu_media.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_payload_camera.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/camera_emu/test_payload_cam_emu_base.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/upgrade/test_upgrade.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_upgrade.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/upgrade/test_upgrade_platform_opt.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common/upgrade_platform_opt/upgrade_platform_opt_linux.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/mop_channel/test_mop_channel.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/payload_collaboration/test_payload_collaboration.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/xport/test_payload_xport.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_xport.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_gimbal.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/hms/test_hms.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common/monitor/sys_monitor.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common/osal/osal.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/power_management/test_power_management.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_power_management.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/gimbal_emu/test_payload_gimbal_emu.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_gimbal.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/fc_subscription/test_fc_subscription.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_fc_subscription.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/camera_emu/test_payload_cam_emu_media.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_payload_camera.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/camera_emu/test_payload_cam_emu_base.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/upgrade/test_upgrade.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_upgrade.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/upgrade/test_upgrade_platform_opt.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common/upgrade_platform_opt/upgrade_platform_opt_linux.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/mop_channel/test_mop_channel.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/payload_collaboration/test_payload_collaboration.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/xport/test_payload_xport.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_xport.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_gimbal.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/hms/test_hms.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common/monitor/sys_monitor.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common/osal/osal.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/pthread.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sched.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/sched.h \
@@ -120,9 +120,9 @@ CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/environments.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/confname.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/getopt.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common/osal/osal_fs.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../common/osal/osal_socket.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/../hal/hal_uart.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common/osal/osal_fs.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../common/osal/osal_socket.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/../hal/hal_uart.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/fcntl.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/fcntl.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/fcntl-linux.h \
@@ -132,8 +132,8 @@ CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/termios.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/termios.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/ttydefaults.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/../hal/hal_network.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/../hal/hal_usb_bulk.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/../hal/hal_network.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/../hal/hal_usb_bulk.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/socket.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/uio.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/socket.h \
@@ -156,12 +156,12 @@ CMakeFiles/dji_sdk_demo_linux.dir/application/main.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/linux/limits.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/posix2_lim.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/xopen_lim.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/dji_sdk_app_info.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_aircraft_info.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget/test_widget.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/dji_sdk_app_info.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_aircraft_info.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget/test_widget.h \
  /home/tao/tools/WiringPi/wiringPi/wiringPi.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget/test_widget_speaker.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_widget.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget_interaction_test/test_widget_interaction.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../module_sample/data_transmission/test_data_transmission.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/application/dji_sdk_config.h
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget/test_widget_speaker.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_widget.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/widget_interaction_test/test_widget_interaction.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../module_sample/data_transmission/test_data_transmission.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/application/dji_sdk_config.h

@@ -1,7 +1,7 @@
 CMakeFiles/dji_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o: \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdint.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdint.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/libc-header-start.h \
@@ -84,14 +84,14 @@ CMakeFiles/dji_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o: \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/timex.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_tm.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/types/struct_itimerspec.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_typedef.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.5.0/include/stdbool.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdlib.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/waitflags.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/waitstatus.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/alloca.h \
  /usr/arm/toolchain/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/stdlib-float.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_error.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_logger.h \
- /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_error.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_logger.h \
+ /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include/dji_platform.h

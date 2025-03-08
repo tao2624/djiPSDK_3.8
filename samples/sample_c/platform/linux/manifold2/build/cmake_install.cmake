@@ -1,4 +1,4 @@
-# Install script for directory: /home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2
+# Install script for directory: /home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tao/desk/gitProj/Payload-SDK-3.8.1_untitled/samples/sample_c/platform/linux/manifold2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tao/wsl_project/Payload-SDK-try1/samples/sample_c/platform/linux/manifold2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
